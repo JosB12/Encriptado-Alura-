@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador De Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="campos">
+            <div class="textarea-container">
+                
+                <textarea id="mensaje-Convertir" name="textarea" rows="10" cols="50" 
+                placeholder="Ingrese el texto aquí..."></textarea>
+
+            </div>
+            <div class="botones">
+                <button id="encriptar">Encriptar</button> 
+                <button id="desencriptar">Desencriptar</button>
+            </div>
+            
+        <div class="aviso"><p>Ingrese solo letras minúsculas, sin acentos ni caracteres especiales.</p></div>
+        </div>
+        <div class="verMensaje">
+            <div class="placeholder-content" id="placeholderContent">
+                <img src="buscar.jpg" alt="Placeholder" class="placeholder-image">
+                <p class="placeholder-text">Ningún mensaje fue encontrado</p>
+                <p class="placeholder-subtext">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            
+            <textarea id="Mensaje" name="area" rows="4" cols="50"></textarea>
+            <button id="copiar">Copiar</button>
+
+        </div>
+    </div>
+    <footer>
+        <p>Desarrollado por Josue Ismael Blanco Sanchez | Contacto: blancojosue931@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
